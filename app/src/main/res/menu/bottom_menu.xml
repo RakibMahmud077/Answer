@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:showAsAction="always"
+        android:id="@+id/profile_bottom"
+        />
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always"
+        android:id="@+id/Home_bottom"
+        />
+    <item
+        android:title="Question"
+        android:icon="@drawable/ic_baseline_queue_24"
+        app:showAsAction="always"
+        android:id="@+id/question_bottom"
+        />
+    <item
+        android:title="Log Out"
+        android:icon="@drawable/ic_baseline_follow_the_signs_24"
+        app:showAsAction="always"
+        android:id="@+id/LogOut_bottom"
+        />
+</menu>
